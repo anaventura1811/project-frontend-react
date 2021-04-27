@@ -4,9 +4,10 @@ class Button extends React.Component {
 
   render() {
     return (
-      <button>Clique aqui</button>
+      <button>Salvar</button>
     )
   }
 }
+
 
 export default Button;
