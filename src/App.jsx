@@ -5,22 +5,22 @@ import ControlPanel from './componentes/ControlPanel/ControlPanel';
 import Header from './componentes/Header/Header';
 import TodoList from './componentes/ToDoList/Todolist';
 import './styles/global.css';
-import styles from './styles/app.module.css'
-
-function Mensagem(props) {
-  console.log(props);
-  const conteudo = 'Brasil';
-  return (
-    <h2 className={styles.mensagem}>Bom dia, meu povo do {conteudo}!</h2>
-  )
-}
+// import styles from './styles/app.module.css'
+import Mensagem from './componentes/Mensagem/Mensagem';
+import Pessoa from './componentes/Pessoa/Pessoa';
 
 function App() {
   return (
     <div className="App">
       <Header />
       <TodoList />
-      <Mensagem frase={'Olá, meu povo!'}/>
+      <Mensagem conteudo={'Olá, meu povo!'}/>
+      <Pessoa 
+      nome={'Ana'}
+      idade={30}
+      frase={'Lugar de mulher é onde ela quiser'}
+      foto={'https://www.einerd.com.br/wp-content/uploads/2019/08/Tio-Ben-poss%C3%ADvel-nova-morte-capa.jpg'}
+      />
       <ControlPanel />
       <Button />
     </div>
