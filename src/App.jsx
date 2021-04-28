@@ -1,7 +1,7 @@
 
 import './App.css';
-import Button  from './componentes/Button/Button';
-import ControlPanel from './componentes/ControlPanel/ControlPanel';
+// import Button  from './componentes/Button/Button';
+// import ControlPanel from './componentes/ControlPanel/ControlPanel';
 import Header from './componentes/Header/Header';
 import TodoList from './componentes/ToDoList/Todolist';
 import './styles/global.css';
@@ -14,8 +14,6 @@ function App() {
     <div className="App">
       <Header />
       <TodoList />
-      <ControlPanel />
-      <Button />
     </div>
   );
 }
