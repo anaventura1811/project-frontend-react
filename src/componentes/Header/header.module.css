@@ -1,7 +1,12 @@
 .header {
   display: flex;
-  flex: 1;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  padding-top: 2%;
+  align-content: center;
+  padding-bottom: 5%;
+}
+
+.header span {
+  justify-self: center;
+  align-self: flex-end;
 }

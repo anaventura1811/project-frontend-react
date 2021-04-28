@@ -3,6 +3,7 @@ import './App.css';
 // import Button  from './componentes/Button/Button';
 // import ControlPanel from './componentes/ControlPanel/ControlPanel';
 import Header from './componentes/Header/Header';
+import Footer from './componentes/Footer/Footer';
 import TodoList from './componentes/ToDoList/Todolist';
 import './styles/global.css';
 // import styles from './styles/app.module.css'
@@ -11,10 +12,15 @@ import './styles/global.css';
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <TodoList />
-    </div>
+    <>
+      <div className="App">
+        <Header />
+        <TodoList />
+      </div>
+      <div className="Footer">
+        <Footer />
+      </div>
+    </>
   );
 }
 

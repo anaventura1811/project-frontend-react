@@ -1,16 +1,18 @@
+@import 'https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;800&display=swap';
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
+  font-family: Raleway, Trebuchet MS, Lucida Sans Unicode, Lucida Grande,
+    Lucida Sans, Arial, sans-serif;
 }
 
 body {
   background: linear-gradient(
     90deg,
-    rgba(48, 16, 255, 1) 0%,
-    rgba(100, 115, 255, 1) 100%
+   white 0%,
+    paleturquoise 100%
   );
 }
 .App {
@@ -19,7 +21,7 @@ body {
   justify-content: flex-start;
   width: 520px;
   min-height: 600px;
-  background: #161a2b;
+  background: paleturquoise;
   text-align: center;
   margin: 128px auto;
   border-radius: 10px;
@@ -28,16 +30,16 @@ body {
 
 h1 {
   margin: 32px 0;
-  color: #fff;
+  color: black;
   font-size: 24px;
 }
 
 p {
-  color: white;
+  color: black;
 }
 
 header {
-  color: white;
+  color: black;
 }
 .complete {
   text-decoration: line-through;
@@ -55,11 +57,11 @@ header {
   outline: none;
   width: 320px;
   background: transparent;
-  color: #fff;
+  color: black;
 }
 
 .todo-input::placeholder {
-  color: #e2e2e2;
+  color: black;
 }
 
 .todo-button {
@@ -153,4 +155,20 @@ header {
   color: #fff;
 }
 
+
+footer {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding: 3%;
+}
+
+.footer p {
+  color: white;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
 /* Source code: https://github.com/briancodex/react-todo-app-v1/blob/master/src/App.css */

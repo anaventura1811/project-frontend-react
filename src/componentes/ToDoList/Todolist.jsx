@@ -40,7 +40,6 @@ function TodoList() {
   }
   return (
     <>
-      <p>Clique duas vezes para marcar um item como completo</p>
       <TodoForm onSubmit={addTodo} />
       <Todo 
       todos={todos}
